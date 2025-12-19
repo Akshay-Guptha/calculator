@@ -5,12 +5,8 @@ public class Calculator {
         Scanner reader = new Scanner(System.in);
 
         System.out.println("--- Java Console Calculator ---");
-        
-        // Input first number
         System.out.print("Enter first number: ");
         double first = reader.nextDouble();
-
-        // Input operator
         System.out.print("Enter an operator (+, -, *, /): ");
         char operator = reader.next().charAt(0);
 
